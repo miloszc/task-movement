@@ -6,12 +6,12 @@ Task Movement is an algorithm that takes into account different network topologi
 and the energy usage of stencil computations on supercomputers.
 
 This software consists of:
-* Task Movement (TM) algorithm
-* 5 simpler heuristics: Load Balancing (LB), Degree minimization (DM), Multicut
+* **Task Movement (TM) algorithm**
+* **5 simpler heuristics**: Load Balancing (LB), Degree minimization (DM), Multicut
 minimization (MM) and Neighbours accumulation (NA), Local Search (LS)
-* ILP model that solves the problem optimally
-* input-generator software to generate the stencil workload and three types of network topologies with heterogeneous processors utilized in supercomputers
-* data for input-genertor that represents: Fat-Tree, Dragonfly and Torus network topologies
+* **ILP model** that solves the problem optimally
+* **input-generator** software to generate the stencil workload and three types of network topologies with heterogeneous processors utilized in supercomputers
+* **data** for input-genertor that represents: Fat-Tree, Dragonfly and Torus network topologies
 
 ## Usage
 
@@ -36,8 +36,9 @@ Follow the same steps as in section "Compiling Task Movement"
   
 ### Usage
 
-Task movement:
+#### Task movement:
 
+```
 Version 1.0: scheduler <path> <idx> <order> <load_factor>
                 -path           the input path for the task and processor graphs
                 -idx            to select algorithm; possible values 1(LB)|3(M)|4(DM)|5(NA)|6(MM)|7(LS)|8(TM)
@@ -49,8 +50,9 @@ Version 1.0: scheduler <path> <idx> <order> <load_factor>
                         RANDOM = 4
                 -load_factor            load factor; used in alg. 5
                         possible values [0.0,1.0]
+```
 						
-ILP steps:
+#### ILP steps:
 
 1. Set parameters of the mesh and processors in grid.txt, stencil.txt, nprocessors.txt, vertex_default_wieght.txt, edge_default_weights.txt or take the input form the data directory.
 2. Generate the mesh and processors using input-genertor. Should be exectued in the same directory as input data:
