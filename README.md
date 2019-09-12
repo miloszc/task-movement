@@ -1,5 +1,4 @@
-# Task Movement: A Tabu Search algorithm to minimize the overall energy usage and the
-execution time of stencil computations
+# Task Movement: A Tabu Search algorithm to minimize the overall energy usage and the execution time of stencil computations
 
 ## Overview
 
@@ -69,7 +68,7 @@ Task movement depends on the following external software:
 
 ILP model can be solved using:
 
-* [SCIP] (https://scip.zib.de/)
+* [SCIP](https://scip.zib.de/)
 
 ## License (MIT License)
 
