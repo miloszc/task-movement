@@ -1,0 +1,3 @@
+// the configured options and settings for Scheduler
+#define Scheduler_VERSION_MAJOR @Scheduler_VERSION_MAJOR@
+#define Scheduler_VERSION_MINOR @Scheduler_VERSION_MINOR@

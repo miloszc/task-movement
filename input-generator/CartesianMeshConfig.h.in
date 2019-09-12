@@ -1,0 +1,3 @@
+// the configured options and settings for CartesianMesh
+#define CartesianMesh_VERSION_MAJOR @CartesianMesh_VERSION_MAJOR@
+#define CartesianMesh_VERSION_MINOR @CartesianMesh_VERSION_MINOR@
