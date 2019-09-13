@@ -56,11 +56,22 @@ Version 1.0: scheduler <path> <idx> <order> <load_factor>
 
 1. Set parameters of the mesh and processors in grid.txt, stencil.txt, nprocessors.txt, vertex_default_wieght.txt, edge_default_weights.txt or take the input form the data directory.
 2. Generate the mesh and processors using input-genertor. Should be exectued in the same directory as input data:
+
+```
 ./cartesian_mesh <x-periodicy> <y-periodicy> <z-periodicy> <network-type>
+```
+
 3. Move from ZIMPL to LP:
+
+```
 zimpl stencil_energy_model.zpl
+```
+
 4. Solve ILP problem:
+
+```
 scip -f stencil_energy_model.lp
+```
 
 ### External Dependencies
 
