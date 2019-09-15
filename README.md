@@ -6,12 +6,11 @@ Task Movement is an algorithm that takes into account different network topologi
 and the energy usage of stencil computations on supercomputers.
 
 This software consists of:
-* **Task Movement (TM) algorithm**
-* **5 simpler heuristics**: Load Balancing (LB), Degree minimization (DM), Multicut
-minimization (MM) and Neighbours accumulation (NA), Local Search (LS)
-* **ILP model** that solves the problem optimally
-* **input-generator** software to generate the stencil workload and three types of network topologies with heterogeneous processors utilized in supercomputers
-* **data** for input-genertor that represents: Fat-Tree, Dragonfly and Torus network topologies
+* **Task Movement (TM) algorithm**;
+* **Five simpler heuristics**: Load Balancing (LB), Degree minimization (DM), Multicut minimization (MM) and Neighbours accumulation (NA), Local Search (LS);
+* **ILP model** that solves the problem optimally;
+* **input-generator** software to generate the stencil workload and three types of network topologies with heterogeneous processors utilized in supercomputers (e.g. Fat-tree, Dragonfly, and Torus);
+* **data** for input-genertor that represents: Fat-Tree, Dragonfly and Torus network topologies;
 
 If you find Task movement useful in your research, please consider citing:
 
