@@ -105,7 +105,7 @@ ILP model can be solved using:
 
 MIT License
 
-Copyright (c) 2019 miloszc
+Copyright (c) 2019 miloszc, Poznan Supercomputing and Networking Center
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
