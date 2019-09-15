@@ -13,23 +13,21 @@ minimization (MM) and Neighbours accumulation (NA), Local Search (LS)
 * **input-generator** software to generate the stencil workload and three types of network topologies with heterogeneous processors utilized in supercomputers
 * **data** for input-genertor that represents: Fat-Tree, Dragonfly and Torus network topologies
 
-Please cite our paper when using the code:
+If you find Task movement useful in your research, please consider citing:
 
 ```
 @Article{Ciznicki2017,
-author="Ciznicki, Milosz
-and Kurowski, Krzysztof
-and Weglarz, Jan",
-title="Energy aware scheduling model and online heuristics for stencil codes on heterogeneous computing architectures",
-journal="Cluster Computing",
-year="2017",
-month="Sep",
-day="01",
-volume="20",
-number="3",
-pages="2535--2549",
-doi="10.1007/s10586-016-0686-2",
-url="https://doi.org/10.1007/s10586-016-0686-2"
+	author="Ciznicki, Milosz and Kurowski, Krzysztof and Weglarz, Jan",
+	title="Energy aware scheduling model and online heuristics for stencil codes on heterogeneous computing architectures",
+	journal="Cluster Computing",
+	year="2017",
+	month="Sep",
+	day="01",
+	volume="20",
+	number="3",
+	pages="2535--2549",
+	doi="10.1007/s10586-016-0686-2",
+	url="https://doi.org/10.1007/s10586-016-0686-2"
 }
 ```
 
@@ -37,7 +35,7 @@ url="https://doi.org/10.1007/s10586-016-0686-2"
 
 ### Compiling Task Movement
 
-The task-movement directory contains a CMakeLists.txt file. To install it the cmake software (https://cmake.org/) is neeed. 
+The task-movement directory contains a CMakeLists.txt file. To install it the cmake software (https://cmake.org/) is needed. 
 Steps needed to build on Windows:
 
 * install and run cmake-gui
